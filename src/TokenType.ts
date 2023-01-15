@@ -8,7 +8,7 @@ export default class TokenType {
     }
 }
 
-export const TOKEN_TYPE_LIST = {
+export const TOKEN_TYPES_LIST = {
     'NUMBER': new TokenType('NUMBER', '[0-9]*'),
     'VARIABLE': new TokenType('VARIABLE', '[A-Za-z]*'),
     'SEMICOLON': new TokenType('SEMICOLON', ';'),
